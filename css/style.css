@@ -1,0 +1,113 @@
+/* ===== GLOBAL ===== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  padding-top: 72px; /* offset for fixed navbar */
+}
+
+/* ===== NAVBAR ===== */
+#mainNav {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  padding: 14px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+#mainNav.scrolled {
+  padding: 8px 0;
+  background: rgba(26,26,46,0.98);
+}
+.navbar-nav .nav-link {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link:hover { color: #ffc107 !important; }
+
+/* ===== HERO ===== */
+.hero-section {
+  min-height: 92vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  position: relative;
+  overflow: hidden;
+}
+.hero-section::before {
+  content: '';
+  position: absolute;
+  width: 600px; height: 600px;
+  border-radius: 50%;
+  background: rgba(255,193,7,0.05);
+  top: -100px; right: -100px;
+}
+
+/* ===== SECTION TAG ===== */
+.section-tag {
+  display: inline-block;
+  background: #fff3cd;
+  color: #856404;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 16px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ===== BOOK CARDS ===== */
+.book-card { transition: transform 0.3s, box-shadow 0.3s; border-radius: 12px !important; overflow: hidden; }
+.book-card:hover { transform: translateY(-6px); box-shadow: 0 12px 30px rgba(0,0,0,0.12) !important; }
+.book-cover {
+  height: 160px;
+  background: linear-gradient(135deg, var(--bs-primary), #0a58ca);
+}
+
+/* ===== ICON CIRCLE ===== */
+.icon-circle {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ===== INTERNSHIP STAT CARDS ===== */
+.intern-stat-card { transition: transform 0.3s; }
+.intern-stat-card:hover { transform: translateY(-4px); }
+
+/* ===== SOCIAL CARDS ===== */
+.social-card {
+  transition: all 0.3s;
+  background: #fff;
+}
+.social-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-color: #ffc107 !important;
+}
+
+/* ===== FOOTER ===== */
+.footer-section {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+}
+.footer-link {
+  color: rgba(255,255,255,0.55);
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 6px;
+  transition: color 0.2s;
+}
+.footer-link:hover { color: #ffc107; }
+
+/* ===== PAGE HEADER (inner pages) ===== */
+.page-header {
+  min-height: 280px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+.breadcrumb-item + .breadcrumb-item::before { color: rgba(255,255,255,0.4); }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .hero-section { min-height: 80vh; }
+  .hero-section h1 { font-size: 2rem; }
+}

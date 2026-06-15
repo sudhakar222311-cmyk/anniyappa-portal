@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anniyappa Publications | Home</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="index.html">
+        <i class="bi bi-book-half me-2"></i>Anniyappa Publications
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/bookshelf.html">Bookshelf</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contact</a></li>
+          <li class="nav-item"><a class="btn btn-warning btn-sm px-3 ms-2" href="pages/internship.html">Internship</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero-section d-flex align-items-center" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-white">
+          <span class="badge bg-warning text-dark mb-3 px-3 py-2 fs-6">Welcome to SB Institute</span>
+          <h1 class="display-4 fw-bold mb-4">Empowering Minds Through <span class="text-warning">Knowledge</span></h1>
+          <p class="lead mb-4 opacity-75">Anniyappa Publications brings quality educational content, internships, and learning resources to students and professionals across Tamil Nadu.</p>
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="pages/bookshelf.html" class="btn btn-warning btn-lg px-4 fw-semibold">
+              <i class="bi bi-journals me-2"></i>Browse Books
+            </a>
+            <a href="pages/internship.html" class="btn btn-outline-light btn-lg px-4">
+              <i class="bi bi-mortarboard me-2"></i>Join Internship
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center mt-5 mt-lg-0">
+          <div class="hero-illustration">
+            <i class="bi bi-book-half" style="font-size: 12rem; color: rgba(255,255,255,0.15);"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS SECTION ========== -->
+  <section class="stats-section py-5 bg-warning">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-6 col-md-3">
+          <h2 class="fw-bold display-5 mb-0">500+</h2>
+          <p class="mb-0 fw-semibold">Books Published</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2 class="fw-bold display-5 mb-0">2000+</h2>
+          <p class="mb-0 fw-semibold">Students Trained</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2 class="fw-bold display-5 mb-0">15+</h2>
+          <p class="mb-0 fw-semibold">Years Experience</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h2 class="fw-bold display-5 mb-0">50+</h2>
+          <p class="mb-0 fw-semibold">Expert Authors</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED BOOKS ========== -->
+  <section class="py-5" id="books">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Our Collection</span>
+        <h2 class="fw-bold mt-2">Featured Books</h2>
+        <p class="text-muted">Explore our most popular educational titles</p>
+      </div>
+      <div class="row g-4">
+
+        <!-- Book Card 1 -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="card book-card h-100 border-0 shadow-sm">
+            <div class="book-cover bg-primary d-flex align-items-center justify-content-center">
+              <i class="bi bi-cpu text-white" style="font-size:4rem;"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge bg-primary-subtle text-primary mb-2">Computer Science</span>
+              <h5 class="card-title fw-bold">Data Structures & Algorithms</h5>
+              <p class="card-text text-muted small">Complete guide to DSA with Tamil Nadu university syllabus coverage.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="pages/bookshelf.html" class="btn btn-outline-primary btn-sm w-100">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book Card 2 -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="card book-card h-100 border-0 shadow-sm">
+            <div class="book-cover bg-success d-flex align-items-center justify-content-center">
+              <i class="bi bi-calculator text-white" style="font-size:4rem;"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge bg-success-subtle text-success mb-2">Mathematics</span>
+              <h5 class="card-title fw-bold">Engineering Mathematics</h5>
+              <p class="card-text text-muted small">Comprehensive coverage of engineering maths for first year students.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="pages/bookshelf.html" class="btn btn-outline-success btn-sm w-100">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book Card 3 -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="card book-card h-100 border-0 shadow-sm">
+            <div class="book-cover bg-danger d-flex align-items-center justify-content-center">
+              <i class="bi bi-globe text-white" style="font-size:4rem;"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge bg-danger-subtle text-danger mb-2">Web Development</span>
+              <h5 class="card-title fw-bold">Full Stack Web Development</h5>
+              <p class="card-text text-muted small">From HTML basics to advanced PHP & MySQL backend development.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="pages/bookshelf.html" class="btn btn-outline-danger btn-sm w-100">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book Card 4 -->
+        <div class="col-sm-6 col-lg-3">
+          <div class="card book-card h-100 border-0 shadow-sm">
+            <div class="book-cover bg-warning d-flex align-items-center justify-content-center">
+              <i class="bi bi-database text-white" style="font-size:4rem;"></i>
+            </div>
+            <div class="card-body">
+              <span class="badge bg-warning-subtle text-warning mb-2">Database</span>
+              <h5 class="card-title fw-bold">Database Management Systems</h5>
+              <p class="card-text text-muted small">MySQL, normalization, and SQL query design made easy.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="pages/bookshelf.html" class="btn btn-outline-warning btn-sm w-100">View Details</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="text-center mt-4">
+        <a href="pages/bookshelf.html" class="btn btn-dark px-5">View All Books <i class="bi bi-arrow-right ms-2"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== INTERNSHIP SECTION ========== -->
+  <section class="py-5 bg-light" id="internship">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="section-tag">Opportunities</span>
+          <h2 class="fw-bold mt-2 mb-3">Internship Program</h2>
+          <p class="text-muted mb-4">Gain real-world experience with our structured internship program. Work on live projects, get mentored by industry experts, and receive a certificate upon completion.</p>
+          <ul class="list-unstyled">
+            <li class="mb-3 d-flex align-items-center gap-3">
+              <span class="icon-circle bg-warning"><i class="bi bi-check-lg text-dark"></i></span>
+              <span>Web Development (HTML, CSS, PHP, MySQL)</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center gap-3">
+              <span class="icon-circle bg-warning"><i class="bi bi-check-lg text-dark"></i></span>
+              <span>Attendance & progress tracking portal</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center gap-3">
+              <span class="icon-circle bg-warning"><i class="bi bi-check-lg text-dark"></i></span>
+              <span>Certificate of completion issued</span>
+            </li>
+            <li class="mb-3 d-flex align-items-center gap-3">
+              <span class="icon-circle bg-warning"><i class="bi bi-check-lg text-dark"></i></span>
+              <span>Mentorship from industry professionals</span>
+            </li>
+          </ul>
+          <a href="pages/internship.html" class="btn btn-warning btn-lg px-4 mt-2 fw-semibold">Apply for Internship</a>
+        </div>
+        <div class="col-lg-6">
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="intern-stat-card bg-primary text-white rounded-3 p-4 text-center">
+                <i class="bi bi-people-fill fs-1 mb-2"></i>
+                <h3 class="fw-bold">200+</h3>
+                <p class="mb-0 small">Active Interns</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="intern-stat-card bg-success text-white rounded-3 p-4 text-center mt-4">
+                <i class="bi bi-award-fill fs-1 mb-2"></i>
+                <h3 class="fw-bold">98%</h3>
+                <p class="mb-0 small">Placement Rate</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="intern-stat-card bg-warning text-dark rounded-3 p-4 text-center">
+                <i class="bi bi-calendar-check-fill fs-1 mb-2"></i>
+                <h3 class="fw-bold">30</h3>
+                <p class="mb-0 small">Days Program</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="intern-stat-card bg-danger text-white rounded-3 p-4 text-center mt-4">
+                <i class="bi bi-laptop-fill fs-1 mb-2"></i>
+                <h3 class="fw-bold">5+</h3>
+                <p class="mb-0 small">Live Projects</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SOCIAL MEDIA SECTION ========== -->
+  <section class="py-5" id="social">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Stay Connected</span>
+        <h2 class="fw-bold mt-2">Follow Us</h2>
+        <p class="text-muted">Stay updated with our latest publications, events, and internship openings</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-6 col-md-3">
+          <a href="#" class="social-card text-decoration-none d-flex flex-column align-items-center p-4 rounded-3 border">
+            <i class="bi bi-youtube fs-1 text-danger mb-2"></i>
+            <span class="fw-semibold text-dark">YouTube</span>
+            <small class="text-muted">Tutorial Videos</small>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="#" class="social-card text-decoration-none d-flex flex-column align-items-center p-4 rounded-3 border">
+            <i class="bi bi-instagram fs-1 text-danger mb-2" style="color:#E1306C !important;"></i>
+            <span class="fw-semibold text-dark">Instagram</span>
+            <small class="text-muted">Updates & Reels</small>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="#" class="social-card text-decoration-none d-flex flex-column align-items-center p-4 rounded-3 border">
+            <i class="bi bi-linkedin fs-1 text-primary mb-2"></i>
+            <span class="fw-semibold text-dark">LinkedIn</span>
+            <small class="text-muted">Professional Network</small>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="#" class="social-card text-decoration-none d-flex flex-column align-items-center p-4 rounded-3 border">
+            <i class="bi bi-whatsapp fs-1 mb-2" style="color:#25D366;"></i>
+            <span class="fw-semibold text-dark">WhatsApp</span>
+            <small class="text-muted">Quick Support</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer-section text-white py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h5 class="fw-bold mb-3"><i class="bi bi-book-half me-2"></i>Anniyappa Publications</h5>
+          <p class="text-white-50">Quality educational content for students and professionals. Empowering minds through knowledge since 2009.</p>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="fw-bold mb-3">Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="pages/about.html" class="footer-link">About</a></li>
+            <li><a href="pages/bookshelf.html" class="footer-link">Bookshelf</a></li>
+            <li><a href="pages/contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="fw-bold mb-3">Programs</h6>
+          <ul class="list-unstyled">
+            <li><a href="pages/internship.html" class="footer-link">Internship</a></li>
+            <li><a href="pages/bookshelf.html" class="footer-link">Books</a></li>
+            <li><a href="pages/gallery.html" class="footer-link">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h6 class="fw-bold mb-3">Contact Us</h6>
+          <p class="text-white-50 small"><i class="bi bi-geo-alt me-2"></i>Chennai, Tamil Nadu, India</p>
+          <p class="text-white-50 small"><i class="bi bi-telephone me-2"></i>+91 XXXXX XXXXX</p>
+          <p class="text-white-50 small"><i class="bi bi-envelope me-2"></i>info@anniyappapublications.com</p>
+        </div>
+      </div>
+      <hr class="border-secondary mt-4"/>
+      <div class="text-center text-white-50 small">
+        &copy; 2025 Anniyappa Publications / SB Institute. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
