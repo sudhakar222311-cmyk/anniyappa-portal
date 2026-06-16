@@ -46,7 +46,7 @@ if (isAdmin()) {
   <div class="sidebar">
     <div class="brand"><span>Anniyappa</span> Portal</div>
     <a href="dashboard.php" class="active"><i class="fas fa-home"></i> Dashboard</a>
-    <a href="#"><i class="fas fa-graduation-cap"></i> My Internship</a>
+    <a href="browse_internships.php"><i class="fas fa-graduation-cap"></i> My Internship</a>
     <a href="#"><i class="fas fa-book"></i> Books</a>
     <a href="#"><i class="fas fa-images"></i> Gallery</a>
     <a href="../pages/contact.html"><i class="fas fa-envelope"></i> Contact</a>
